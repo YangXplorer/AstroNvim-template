@@ -9,6 +9,7 @@ return {
     -- config variable is the default configuration table for the setup function call
     local null_ls = require "null-ls"
 
+
     -- Check supported formatters and linters
     -- https://github.com/nvimtools/none-ls.nvim/tree/main/lua/null-ls/builtins/formatting
     -- https://github.com/nvimtools/none-ls.nvim/tree/main/lua/null-ls/builtins/diagnostics
@@ -19,6 +20,7 @@ return {
       null_ls.builtins.formatting.stylua,
       null_ls.builtins.diagnostics.eslint,
       null_ls.builtins.completion.spell,
+ain
     }
     return config -- return final config table
   end,
